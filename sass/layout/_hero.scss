@@ -1,0 +1,30 @@
+.hero {
+  padding-top: 200px;
+  padding-bottom: 200px;
+  text-align: center;
+  background-color: var(--background-hero-color);
+  background-image: linear-gradient(
+      rgba(47, 48, 58, 0.4),
+      rgba(47, 48, 58, 0.4)
+    ),
+    url('../images/hero/bg.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  &__title {
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: var(--main-lite-color);
+    width: 696px;
+    margin: 0 auto 30px;
+  }
+
+  &__modal-btn {
+    border: 1px solid var(--accent-color);
+    padding: 10px 32px;
+  }
+}
