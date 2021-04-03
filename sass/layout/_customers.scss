@@ -1,26 +1,19 @@
 .customers {
-  padding-top: 94px;
-  padding-bottom: 94px;
+  @include paddings;
 
   &__title {
-    font-weight: 700;
-    font-size: 36px;
-    line-height: 1.17;
+    @include font($fw: 700, $fs: 36px, $lh: 42px);
     text-align: center;
-    letter-spacing: 0.03em;
     color: var(--second-color);
     margin-bottom: 50px;
   }
 
   &__list {
-    display: flex;
-    justify-content: space-between;
+    @include alignment;
   }
 
   &__link {
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    @include alignment($jc: center);
     color: var(--icon-main-color);
     width: 170px;
     height: 90px;
@@ -37,9 +30,7 @@
   }
 
   &__icon {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    @include alignment($jc: center);
     fill: currentColor;
   }
 }

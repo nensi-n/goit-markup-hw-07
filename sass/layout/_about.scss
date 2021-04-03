@@ -1,19 +1,13 @@
 .about {
-  padding-top: 94px;
-  padding-bottom: 94px;
+  @include paddings;
 
   &__dscrptn {
-    font-size: 14px;
-    line-height: 1.71;
-    letter-spacing: 0.03em;
+    @include font;
   }
 
   &__title {
     text-transform: uppercase;
-    font-weight: 700;
-    font-size: 14px;
-    line-height: 1.17;
-    letter-spacing: 0.03em;
+    @include font($fw: 700, $lh: 16px);
     color: var(--second-color);
     margin-bottom: 10px;
   }
@@ -32,9 +26,7 @@
   }
 
   &__container-icon {
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    @include alignment($jc: center);
     width: 270px;
     height: 120px;
     background: var(--bckg-btn-color);

@@ -1,9 +1,7 @@
 .contact-list {
   &__link {
     display: block;
-    font-size: 14px;
-    line-height: 1.71;
-    letter-spacing: 0.03em;
+    @include font;
     color: var(--transparant-color);
     transition: color 250ms var(--timing-function);
   }

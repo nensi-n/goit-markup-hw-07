@@ -1,14 +1,8 @@
 .social-list {
-  display: flex;
-  align-items: center;
-
-  justify-content: space-evenly;
-  margin-top: 16px;
+  @include alignment($jc: space-evenly);
 
   &__link {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    @include alignment($jc: center);
     width: 44px;
     height: 44px;
     border-radius: 50%;

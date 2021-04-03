@@ -2,8 +2,7 @@
   border-bottom: 1px solid var(--border-header);
 
   &_contacts-list {
-    display: flex;
-    align-items: center;
+    @include alignment;
   }
 
   &__contacts-item:not(:last-child) {
@@ -11,15 +10,10 @@
   }
 
   &__contacts-link {
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 1.17;
-    letter-spacing: 0.02em;
+    @include alignment;
+    @include font($fw: 500, $lh: 16px, $ls: 0.02em);
+    @include paddings($pt: 32px, $pb: 32px);
     color: var(--main-color);
-    display: flex;
-    align-items: center;
-    padding-top: 32px;
-    padding-bottom: 32px;
     transition: color 250ms var(--timing-function);
   }
 

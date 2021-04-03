@@ -1,18 +1,13 @@
 .footer-form {
   &__subscriber {
-    font-weight: 700;
-    font-size: 14px;
-    line-height: 1.14;
-    letter-spacing: 0.03em;
+    @include font($fw: 700, $fs: 14px, $lh: 16px);
     text-transform: uppercase;
     color: var(--main-lite-color);
     margin-bottom: 20px;
   }
 
   &__container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    @include alignment($jc: center);
     position: relative;
   }
 
@@ -29,9 +24,7 @@
     color: var(--main-lite-color);
 
     &::placeholder {
-      font-size: 16px;
-      line-height: 1.25;
-      letter-spacing: 0.03em;
+      @include font($fs: 16px, $lh: 20px);
       color: rgba(255, 255, 255, 0.6);
     }
 

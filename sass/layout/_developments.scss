@@ -1,31 +1,23 @@
 .developments {
   background-color: var(--bckg-btn-color);
-  padding-top: 94px;
-  padding-bottom: 94px;
+  @include paddings;
 
   &__title {
-    font-weight: 700;
-    font-size: 36px;
-    line-height: 1.17;
+    @include font($fw: 700, $fs: 36px, $lh: 42px);
     text-align: center;
-    letter-spacing: 0.03em;
     color: var(--second-color);
     margin-bottom: 50px;
   }
 
   &__title-team {
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 1.17;
-    letter-spacing: 0.03em;
+    @include font($fw: 500, $fs: 16px, $lh: 19px);
     color: var(--second-color);
+    margin-bottom: 10px;
   }
 
   &__dscrptn {
-    font-size: 16px;
-    line-height: 1.17;
-    letter-spacing: 0.03em;
-    margin-top: 10px;
+    @include font($fs: 16px, $lh: 19px);
+    margin-bottom: 16px;
   }
 
   &__list {

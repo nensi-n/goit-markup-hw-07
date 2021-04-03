@@ -107,13 +107,12 @@ img {
   display: flex;
   align-items: center;
   justify-content: space-evenly;
-  margin-top: 16px;
 }
 
 .social-list__link {
   display: flex;
-  justify-content: center;
   align-items: center;
+  justify-content: center;
   width: 44px;
   height: 44px;
   border-radius: 50%;
@@ -277,6 +276,7 @@ img {
 .header_contacts-list {
   display: flex;
   align-items: center;
+  justify-content: space-between;
 }
 
 .header__contacts-item:not(:last-child) {
@@ -284,13 +284,14 @@ img {
 }
 
 .header__contacts-link {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
   font-weight: 500;
   font-size: 14px;
   line-height: 1.17;
   letter-spacing: 0.02em;
   color: var(--main-color);
-  display: flex;
-  align-items: center;
   padding-top: 32px;
   padding-bottom: 32px;
   transition: color 250ms var(--timing-function);
@@ -378,6 +379,7 @@ img {
 }
 
 .occupation {
+  padding-top: 0;
   padding-bottom: 94px;
 }
 
@@ -446,13 +448,14 @@ img {
   line-height: 1.17;
   letter-spacing: 0.03em;
   color: var(--second-color);
+  margin-bottom: 10px;
 }
 
 .developments__dscrptn {
   font-size: 16px;
   line-height: 1.17;
   letter-spacing: 0.03em;
-  margin-top: 10px;
+  margin-bottom: 16px;
 }
 
 .developments__list {
@@ -493,6 +496,7 @@ img {
 
 .customers__list {
   display: flex;
+  align-items: center;
   justify-content: space-between;
 }
 
@@ -515,8 +519,8 @@ img {
 
 .customers__icon {
   display: flex;
-  justify-content: center;
   align-items: center;
+  justify-content: center;
   fill: currentColor;
 }
 
@@ -645,8 +649,8 @@ img {
 
 .footer-list-icons__link {
   display: flex;
-  justify-content: center;
   align-items: center;
+  justify-content: center;
   width: 44px;
   height: 44px;
   border-radius: 50%;
@@ -675,8 +679,8 @@ img {
 
 .footer-form__container {
   display: flex;
-  justify-content: center;
   align-items: center;
+  justify-content: center;
   position: relative;
 }
 
@@ -845,10 +849,11 @@ img {
 
 .modal__check-desc {
   display: flex;
+  align-items: center;
+  justify-content: space-between;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
-  align-items: center;
   margin: 0 auto;
   margin-bottom: 30px;
 }

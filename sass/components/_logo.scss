@@ -1,16 +1,12 @@
 .logo {
   font-family: var(--secondary-font);
-  font-weight: 700;
-  font-size: 26px;
-  line-height: 1.38;
-  letter-spacing: 0.03em;
+  @include font($fw: 700, $fs: 26px, $lh: 31px);
   color: var(--accent-color);
   display: inline-block;
 
   &__header {
     margin-right: 93px;
-    padding-top: 24px;
-    padding-bottom: 25px;
+    @include paddings(24px, 25px);
   }
 
   &__theme_durk {
