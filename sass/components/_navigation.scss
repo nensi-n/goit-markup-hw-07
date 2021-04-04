@@ -2,7 +2,7 @@
   @include alignment;
 
   &_list {
-    @include alignmen;
+    @include alignment;
   }
 
   &__item:not(:last-child) {

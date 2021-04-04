@@ -11,8 +11,8 @@
     color: var(--accent-color);
   }
 
-  &__item:not(:first-child) {
-    margin-top: 9px;
+  &__item:not(:last-child) {
+    margin-bottom: 9px;
   }
 
   &__link-address {
