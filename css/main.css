@@ -912,4 +912,16 @@ img {
 .modal__link {
   color: var(--accent-color);
 }
+
+.modal__btn {
+  align-self: center;
+  padding: 10px 55px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border: 1px solid var(--bckg-btn-color);
+  transition: background-color 250ms var(--timing-function);
+}
+
+.modal__btn:hover, .modal__btn:focus {
+  background-color: var(--accent-color);
+}
 /*# sourceMappingURL=main.css.map */
