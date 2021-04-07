@@ -4,25 +4,25 @@
   &_title-link {
     @include font($fw: 700, $fs: 18px, $lh: 36px, $ls: 0.06em);
     color: var(--second-color);
+    margin-bottom: 4px;
   }
 
   &__description {
     @include font($fs: 16px, $lh: 30px);
     color: var(--main-color);
-    margin-top: 4px;
   }
 
   &__cards-list {
     display: flex;
     flex-wrap: wrap;
-    margin-left: -30px;
-    margin-top: -30px;
+    margin-right: -30px;
+    margin-bottom: -30px;
   }
 
   &__cards-item {
     flex-basis: calc(100% / 3 - 30px);
-    margin-left: 30px;
-    margin-top: 30px;
+    margin-right: 30px;
+    margin-bottom: 30px;
   }
 
   &__cards-wrapper {

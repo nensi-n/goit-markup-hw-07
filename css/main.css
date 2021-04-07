@@ -196,7 +196,7 @@ img {
 .navigation__current::after {
   content: '';
   position: absolute;
-  bottom: -3px;
+  bottom: -1px;
   left: 0;
   width: 100%;
   height: 4px;
@@ -337,6 +337,8 @@ img {
   max-width: 1600px;
   padding-top: 200px;
   padding-bottom: 200px;
+  margin-left: auto;
+  margin-right: auto;
   text-align: center;
   background-color: var(--background-hero-color);
   background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url("../images/hero/bg.jpg");
@@ -386,14 +388,14 @@ img {
 .about__list {
   display: flex;
   flex-wrap: wrap;
-  margin-left: -30px;
-  margin-top: -30px;
+  margin-right: -30px;
+  margin-bottom: -30px;
 }
 
 .about__item {
   flex-basis: calc(100% / 4 - 30px);
-  margin-left: 30px;
-  margin-top: 30px;
+  margin-right: 30px;
+  margin-bottom: 30px;
 }
 
 .about__container-icon {
@@ -425,15 +427,15 @@ img {
 .occupation__list {
   display: flex;
   flex-wrap: wrap;
-  margin-left: -30px;
-  margin-top: -30px;
+  margin-right: -30px;
+  margin-bottom: -30px;
 }
 
 .occupation__item {
   position: relative;
   flex-basis: calc(100% / 3 - 30px);
-  margin-left: 30px;
-  margin-top: 30px;
+  margin-right: 30px;
+  margin-bottom: 30px;
 }
 
 .occupation__caption {
@@ -491,15 +493,15 @@ img {
 .developments__list {
   display: flex;
   flex-wrap: wrap;
-  margin-left: -30px;
-  margin-top: -30px;
+  margin-right: -30px;
+  margin-bottom: -30px;
   text-align: center;
 }
 
 .developments__item {
   flex-basis: calc(100% / 4 - 30px);
-  margin-left: 30px;
-  margin-top: 30px;
+  margin-right: 30px;
+  margin-bottom: 30px;
 }
 
 .developments__wrapper {
@@ -570,6 +572,7 @@ img {
   line-height: 2;
   letter-spacing: 0.06em;
   color: var(--second-color);
+  margin-bottom: 4px;
 }
 
 .portfolio__description {
@@ -578,20 +581,19 @@ img {
   line-height: 1.88;
   letter-spacing: 0.03em;
   color: var(--main-color);
-  margin-top: 4px;
 }
 
 .portfolio__cards-list {
   display: flex;
   flex-wrap: wrap;
-  margin-left: -30px;
-  margin-top: -30px;
+  margin-right: -30px;
+  margin-bottom: -30px;
 }
 
 .portfolio__cards-item {
   flex-basis: calc(100% / 3 - 30px);
-  margin-left: 30px;
-  margin-top: 30px;
+  margin-right: 30px;
+  margin-bottom: 30px;
 }
 
 .portfolio__cards-wrapper {
@@ -664,6 +666,7 @@ img {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--main-lite-color);
+  margin-bottom: 20px;
 }
 
 .footer__container-icons {
@@ -677,11 +680,6 @@ img {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  margin-top: 20px;
-}
-
-.footer-list-icons__item:not(:last-child) {
-  margin-right: 10px;
 }
 
 .footer-list-icons__link {

@@ -19,6 +19,7 @@
     @include font($fw: 700, $lh: 16px);
     text-transform: uppercase;
     color: var(--main-lite-color);
+    margin-bottom: 20px;
   }
 
   &__container-icons {
@@ -31,11 +32,10 @@
 
 .footer-list-icons {
   @include alignment;
-  margin-top: 20px;
 
-  &__item:not(:last-child) {
-    margin-right: 10px;
-  }
+  //&__item:not(:last-child) {
+  //margin-right: 10px;
+  //}
 
   &__link {
     color: var(--main-lite-color);
